@@ -10,7 +10,7 @@ class App extends Component {
 
     componentDidMount(){
         setInterval(()=>{
-
+            this.setState({hora: new Date().toLocaleTimeString()})
         },1000); //1 segundo
     }
 
