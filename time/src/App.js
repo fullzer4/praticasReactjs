@@ -30,21 +30,23 @@ class App extends Component {
                 <div className="container-hora">
                     <h2 id="hora">{this.state.hora}</h2>
                 </div>
-                <div className="container-links">
-                    <div class="links-1">
-                        <a href="https://github.com/fullzer4" className="card-links">
-                            <img src={github} alt="github"/>
-                        </a>
-                    </div>
-                    <div class="links-2">
-                        <a href="https://github.com/fullzer4" className="card-links">
-                            <img src={Instagram} alt="instagram"/>
-                        </a>
-                    </div>
-                    <div class="links-3">
-                        <a href="https://github.com/fullzer4" className="card-links">
-                            <img src={Linkedin} alt="linkedin"/>
-                        </a>
+                <div className="links">
+                    <div className="container-links">
+                        <div class="links-1">
+                            <a href="https://github.com/fullzer4" className="card-links">
+                                <img src={github} alt="github"/>
+                            </a>
+                        </div>
+                        <div class="links-2">
+                            <a href="https://github.com/fullzer4" className="card-links">
+                                <img src={Instagram} alt="instagram"/>
+                            </a>
+                        </div>
+                        <div class="links-3">
+                            <a href="https://github.com/fullzer4" className="card-links">
+                                <img src={Linkedin} alt="linkedin"/>
+                            </a>
+                        </div>
                     </div>
                     <div id="linha"></div>
                 </div>
