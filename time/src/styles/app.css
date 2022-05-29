@@ -1,3 +1,68 @@
+/*variaveis inicio*/
+
+:root{
+    --corfundo: #363636;
+    --cortexto: #DBD4D4;
+    --corbox: #585555;
+    --configshadow: 6px 6px 4px rgba(255, 255, 255, 0.25);;
+    --corlinha: #8E8989;
+}
+
+/*variaveis fim*/
+
+/* pagina/body/root inicio*/
+
+body{
+    background: var(--corfundo);
+    width: 100vw;
+    height: 100vh;
+}
+
+#root{
+    width: 100vw;
+    height: 100vh;
+}
+
+#pagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* pagina/body/root fim*/
+
+/*config links inicio*/
+
+.container-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    animation: float 6s ease-in-out infinite;
+    width: 100%;
+}
+
+.links1{
+    display: flex;
+}
+
+.links2{
+    display: flex;
+}
+
+.links3{
+    display: flex;
+}
+
+.card-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 @keyframes float {
     0%{
         transform: translateY(0);
@@ -9,3 +74,5 @@
         transform: translateY(0);
     }
 }
+
+/*config links fim*/

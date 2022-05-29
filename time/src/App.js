@@ -46,6 +46,7 @@ class App extends Component {
                             <img src={Linkedin} alt="linkedin"/>
                         </a>
                     </div>
+                    <div id="linha"></div>
                 </div>
             </div>
         )
